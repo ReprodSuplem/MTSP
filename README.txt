@@ -43,3 +43,10 @@ and -mct=$y indicates that the number of salesmen is $y.
 Please do not pay attention to the last argument file "solution.txt", 
 it does NOT play any role in reproducing our experiment, 
 but please keep this argument, otherwise you will get an error. 
+
+===== Part C =====
+All log files in our experiments are in the following directories:
+(1) Table 1
+(2) Table 2
+(3) Table 3
+which respectively correspond to the results of our paper. 
