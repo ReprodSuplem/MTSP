@@ -1,0 +1,86 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.7.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2017.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> New value for default parallel thread count: 1
+CPLEX> New value for time limit in seconds: 3600
+CPLEX> Problem 'pr152_m24.lp' read.
+Read time = 0.98 sec. (61.11 ticks)
+CPLEX> CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+Reduced MIP has 26648 rows, 551000 columns, and 3335916 nonzeros.
+Reduced MIP has 550848 binaries, 151 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.42 sec. (1273.62 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 26648 rows, 551000 columns, and 3335916 nonzeros.
+Reduced MIP has 550848 binaries, 151 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2.52 sec. (1841.34 ticks)
+Probing time = 0.62 sec. (207.72 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 832692.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 200.91 sec. (244009.96 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     7401.8854   439                   7401.8854    60634         
+      0     0     7430.1406   494                   Cuts: 191    61425         
+      0     0     7462.6250   535                   Cuts: 269    61706         
+      0     0     7462.6250   519                    Cuts: 70    61820         
+      0     0     7462.6250   511                    Cuts: 45    61870         
+      0     0     7462.6250   497                    Cuts: 36    61909         
+      0     0     7462.6250   494                    Cuts: 57    62000         
+      0     0     7462.6250   483                     Cuts: 4    62013         
+      0     0     7462.6250   487                   Cuts: 121    62163         
+Heuristic still looking.
+Heuristic still looking.
+      0     2     7462.6250   470                   7462.6250    62163         
+Elapsed time = 743.27 sec. (1307577.24 ticks, tree = 0.01 MB, solutions = 0)
+      1     3     7462.6250   470                   7462.6250    62212         
+      2     4     7895.4909   484                   7462.6250    62371         
+      3     5     7462.6250   467                   7462.6250    62455         
+      4     6    10910.0000   905                   7462.6250   219449         
+      5     7     7488.9492   494                   7462.6250   219654         
+      6     8     7501.5000   495                   7462.6250   219740         
+      7     9    12500.0000   419                   7462.6250   219896         
+      8    10     7540.3750   500                   7462.6250   220140         
+      9    11    11298.0000   878                   7462.6250   295259         
+     10    12     7628.2174   493                   7462.6250   295901         
+Elapsed time = 2509.46 sec. (3391629.89 ticks, tree = 4.45 MB, solutions = 0)
+     11    13    10200.0000   671                   7462.6250   366573         
+     12    14     7901.2187   490                   7462.6250   366797         
+     13    15     7628.2174   501                   7462.6250   366876         
+     14    16     7629.5104   502                   7462.6250   367068         
+
+Clique cuts applied:  32
+Implied bound cuts applied:  12
+Mixed integer rounding cuts applied:  99
+Zero-half cuts applied:  100
+Gomory fractional cuts applied:  11
+
+Root node processing (before b&c):
+  Real time             =  721.88 sec. (1295084.65 ticks)
+Sequential b&c:
+  Real time             = 2878.15 sec. (3454376.65 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.03 sec. (4749461.30 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  7.4626250000e+03 (gap is infinite)
+Solution time = 3600.03 sec.  Iterations = 439334  Nodes = 15 (16)
+Deterministic time = 4749462.88 ticks  (1319.28 ticks/sec)
+
+CPLEX> No integer feasible solution exists.
+CPLEX> 

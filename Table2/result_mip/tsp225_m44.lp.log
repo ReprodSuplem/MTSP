@@ -1,0 +1,55 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.7.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2017.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> New value for default parallel thread count: 1
+CPLEX> New value for time limit in seconds: 3600
+CPLEX> Problem 'tsp225_m44.lp' read.
+Read time = 4.04 sec. (242.98 ticks)
+CPLEX> CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Presolve has eliminated 0 rows and 0 columns...
+Tried aggregator 1 time.
+Reduced MIP has 60388 rows, 2217825 columns, and 13366124 nonzeros.
+Reduced MIP has 2217600 binaries, 224 generals, 0 SOSs, and 0 indicators.
+Presolve time = 20.25 sec. (15879.99 ticks)
+Presolve has eliminated 0 rows and 0 columns...
+Tried aggregator 1 time.
+Reduced MIP has 60388 rows, 2217825 columns, and 13366124 nonzeros.
+Reduced MIP has 2217600 binaries, 224 generals, 0 SOSs, and 0 indicators.
+Presolve time = 27.66 sec. (18174.57 ticks)
+Probing time = 3.10 sec. (746.34 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 2978834.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 3506.21 sec. (3943459.66 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  -1.00000e+37     0                      0.0000   148466         
+
+Root node processing (before b&c):
+  Real time             = 3600.18 sec. (4003014.32 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.18 sec. (4003014.32 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time = 3600.18 sec.  Iterations = 148466  Nodes = 0
+Deterministic time = 4003020.66 ticks  (1111.89 ticks/sec)
+
+CPLEX> No integer feasible solution exists.
+CPLEX> 

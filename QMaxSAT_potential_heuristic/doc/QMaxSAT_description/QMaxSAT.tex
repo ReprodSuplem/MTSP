@@ -1,0 +1,105 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{algorithm}
+\floatname{algorithm}{Modification}
+\usepackage{algorithmic}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\begin{document}
+	
+% paper title
+\title{\textsc{QMaxSAT} in MaxSAT Evaluation 2018}
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Aolong Zha}
+\IEEEauthorblockA{\textit{Faculty of Information Science and Electrical Engineering} \\
+  \textit{Kyushu University} \\
+  744 Motooka, Nishi-ku, Fukuoka, Japan \\
+  cyouryuuryuu@gmail.com}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+% 
+%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
+%Homer Simpson\IEEEauthorrefmark{2},
+%James Kirk\IEEEauthorrefmark{3}, 
+%Montgomery Scott\IEEEauthorrefmark{3} and
+%Eldon Tyrell\IEEEauthorrefmark{4}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
+%Georgia Institute of Technology,
+%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
+%Email: homer@thesimpsons.com}
+%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
+%Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+\maketitle
+
+\textsc{QMaxSAT} is a  satisfiability-based solver, which uses CNF encoding of pseudo-Boolean (PB) 
+constraints \cite{DBLP:journals/jsat/KoshimuraZFH12}. 
+The efficiency of MaxSAT solvers depends on critically on which SAT solver we use 
+and how we encode the PB constraints. The \textsc{QMaxSAT} is obtained by adapting a CDCL based 
+SAT solver \textsc{Glucose 3.0} \cite{DBLP:conf/ijcai/AudemardS09,10.1007/978-3-540-24605-3_37}. 
+In addition, we introduce a new encoding method, called $n$-level modulo 
+totalizer encoding in to our solver. This encoding is a hybrid between Modulo Totalizer (MTO) 
+\cite{DBLP:conf/ictai/OgawaLHKF13} and Weighted Totalizer (WTO) \cite{hayata2015weighted}, 
+incorporating the idea of mixed radix base \cite{DBLP:conf/tacas/CodishFFS11}. 
+
+Let $\phi=
+\{(C_{1},w_{1}),\dots,(C_{m},w_{m}),C_{m+1},\dots,C_{m+m'}\}$ be a
+MaxSAT \cite{li2009maxsat} instance where $C_{i}$ is a soft clause with weight
+$w_{i}$ $(i = 1,\dots,m)$ and $C_{m+j}$ is a hard
+clause $(j = 1,\dots,m')$.
+We added a new blocking variable, $b_{i}$, to each soft clause $C_{i} (i
+= 1,\dots,m)$.
+Solving the MaxSAT problem for $\phi$ is reduced to
+finding a SAT model of
+$\phi' = \{C_{1}\vee b_{1},\dots,C_{m}\vee b_{m},C_{m+1},\dots,C_{m+m'}\}$, 
+which minimizes $\sum_{i=1}^{m} w_{i}b_{i}$.
+
+Such SAT models are obtained using a SAT solver as follows:
+Run the SAT solver to get an initial model and calculate
+$k = \sum_{i} w_{i}b_{i}$ in it,
+add PB constraint $\sum_{i} w_{i}b_{i} < k$,
+and run the solver again. If $\phi'$ is unsatisfiable,
+then $\phi$ is also unsatisfiable as the MaxSAT problem.
+Otherwise, the process is repeated with the new smaller solution.
+The latest model is a MaxSAT solution of $\phi$.
+\textsc{QMaxSAT} leaves the manipulation of the PB constraints to \textsc{Glucose} by 
+encoding them into SAT.
+
+We introduce a hybrid encoding 
+\cite{DBLP:conf/taai/ZhaAhyb} which inherits 
+modular arithmetic from MTO and distinct combinations of weights from WTO. 
+The latter is essentially the same as Generalized Totalizer, which 
+only generate auxiliary variables for each unique combination of weights. 
+We also enhanced the encoding by multi-level modulo 
+arithmetic based on a mixed radix numeral system \cite{DBLP:conf/ictai/Zhamix13}. 
+This encoding method always produces a polynomial-size CNF in the number of input variables. 
+
+It is important to find a suitable mixed radix base with low time-consumption 
+that reduces the number of auxiliary variables for our new encoding. 
+We select the integer whose rate of divisibility is the highest for all weights\footnote{
+Before selecting the next modulus, we update all the weights to their quotients of dividing 
+the previous selected modulus. 
+} as the suitable modulus for each digit. Furthermore, 
+we also add other heuristics tailored in our implementation, such as evaluating and voting for the candidates of modulus, dynamically adjusting the lower limit of the 
+required rate of divisibility, etc. 
+
+\bibliographystyle{IEEEtran}
+\bibliography{QMaxSAT}
+
+\end{document}

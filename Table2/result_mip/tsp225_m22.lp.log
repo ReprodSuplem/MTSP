@@ -1,0 +1,67 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.7.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2017.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> New value for default parallel thread count: 1
+CPLEX> New value for time limit in seconds: 3600
+CPLEX> Problem 'tsp225_m22.lp' read.
+Read time = 2.24 sec. (123.46 ticks)
+CPLEX> CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+Reduced MIP has 55394 rows, 1109025 columns, and 6733014 nonzeros.
+Reduced MIP has 1108800 binaries, 224 generals, 0 SOSs, and 0 indicators.
+Presolve time = 3.23 sec. (2608.77 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 55394 rows, 1109025 columns, and 6733014 nonzeros.
+Reduced MIP has 1108800 binaries, 224 generals, 0 SOSs, and 0 indicators.
+Presolve time = 6.51 sec. (3755.80 ticks)
+Probing time = 1.34 sec. (374.33 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 1486460.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 1182.13 sec. (1328252.85 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    32459.1162   590                  32459.1162   123860         
+      0     0    33582.0394   722                   Cuts: 289   128542         
+      0     0    33705.6723   701                   Cuts: 197   131453         
+      0     0    33728.0209   722                   Cuts: 146   133376         
+      0     0    33735.7500   783                   Cuts: 141   134852         
+      0     0    33737.8636   784                   Cuts: 148   136038         
+      0     0    33738.2159   790                   Cuts: 151   136934         
+      0     0    33738.2159   770                   Cuts: 110   137585         
+      0     0    33738.2159   804                   Cuts: 112   138258         
+
+Clique cuts applied:  76
+Implied bound cuts applied:  8
+Mixed integer rounding cuts applied:  171
+Zero-half cuts applied:  465
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             = 4033.29 sec. (5346031.51 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) = 4033.29 sec. (5346031.51 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  3.3738215909e+04 (gap is infinite)
+Solution time = 4033.29 sec.  Iterations = 138258  Nodes = 0 (1)
+Deterministic time = 5346034.68 ticks  (1325.48 ticks/sec)
+
+CPLEX> No integer feasible solution exists.
+CPLEX> 

@@ -1,0 +1,126 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.7.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2017.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> New value for default parallel thread count: 1
+CPLEX> New value for time limit in seconds: 3600
+CPLEX> Problem 'burma14_m3.lp' read.
+Read time = 0.00 sec. (0.07 ticks)
+CPLEX> CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+Reduced MIP has 230 rows, 560 columns, and 3435 nonzeros.
+Reduced MIP has 546 binaries, 13 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.45 ticks)
+Probing time = 0.00 sec. (2.66 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 230 rows, 560 columns, and 3435 nonzeros.
+Reduced MIP has 546 binaries, 14 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.07 ticks)
+Probing time = 0.00 sec. (2.63 ticks)
+Clique table members: 1837.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.88 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      967.8182    37                    967.8182      158         
+      0     0     1024.0000    44                    Cuts: 22      365         
+      0     0     1024.0000    29                    Cuts: 21      394         
+      0     0     1024.0000    31                    Cuts: 10      401         
+*     0+    0                         4716.0000     1024.0000            78.29%
+*     0+    0                         2928.0000     1024.0000            65.03%
+*     0+    0                         2259.0000     1024.0000            54.67%
+*     0+    0                         2158.0000     1024.0000            52.55%
+*     0+    0                         2150.0000     1024.0000            52.37%
+*     0+    0                         1994.0000     1024.0000            48.65%
+      0     2     1024.0000    25     1994.0000     1024.0000      401   48.65%
+Elapsed time = 0.24 sec. (269.42 ticks, tree = 0.01 MB, solutions = 6)
+*    70+   43                         1913.0000     1039.1105            45.68%
+*   180+  112                         1883.0000     1040.1515            44.76%
+*   185    68      integral     0     1824.0000     1040.1515     2520   42.97%
+*   285+  127                         1823.0000     1084.7270            40.50%
+    639   371     1797.0000    20     1823.0000     1117.5152     8304   38.70%
+*   735   427      integral     0     1814.0000     1126.3353     9299   37.91%
+*   780   396      integral     0     1811.0000     1126.6517     9605   37.79%
+*   824   311      integral     0     1786.0000     1132.6970    10054   36.58%
+   1412   588    infeasible           1786.0000     1234.9081    16551   30.86%
+   1467   631     1024.0000    25     1786.0000     1248.3854    17748   30.10%
+   1539   582     1069.0000    26     1786.0000     1248.3854    18714   30.10%
+   1735   624     1242.6364    32     1786.0000     1248.3854    20364   30.10%
+   2296   786     1654.0000    24     1786.0000     1248.3854    24731   30.10%
+   2900  1116     1378.7273    36     1786.0000     1248.3854    29951   30.10%
+   3227  1366     1024.0000    35     1786.0000     1248.3854    33379   30.10%
+   3697   847     1193.5909    38     1786.0000     1248.3854    40048   30.10%
+*  4469   581      integral     0     1780.0000     1294.6667    50559   27.27%
+*  5586   940      integral     0     1778.0000     1404.3636    62720   21.01%
+   5615   962     1776.0000    16     1778.0000     1404.3636    62973   21.01%
+Elapsed time = 2.89 sec. (3555.68 ticks, tree = 0.54 MB, solutions = 15)
+*  5617+  959                         1777.0000     1404.3636            20.97%
+*  5636   926      integral     0     1776.0000     1404.3636    63240   20.93%
+   7109  1146     1512.7572    30     1776.0000     1474.1818    80280   16.99%
+*  8902   771      integral     0     1770.0000     1620.0000    96956    8.47%
+   9126   676    infeasible           1770.0000     1641.0000    98750    7.29%
+* 10598     1      integral     0     1766.0000     1766.0000   110550    0.00%
+
+Cover cuts applied:  23
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  19
+Zero-half cuts applied:  21
+Gomory fractional cuts applied:  7
+
+Root node processing (before b&c):
+  Real time             =    0.24 sec. (269.50 ticks)
+Sequential b&c:
+  Real time             =    4.87 sec. (5836.44 ticks)
+                          ------------
+Total (root+branch&cut) =    5.11 sec. (6105.94 ticks)
+
+Solution pool: 19 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.7660000000e+03
+Solution time =    5.11 sec.  Iterations = 110550  Nodes = 10599
+Deterministic time = 6105.94 ticks  (1195.88 ticks/sec)
+
+CPLEX> Incumbent solution
+Variable Name           Solution Value
+y                          1766.000000
+x2                            1.000000
+x204                          1.000000
+x397                          1.000000
+x169                          1.000000
+x337                          1.000000
+x449                          1.000000
+x297                          1.000000
+x186                          1.000000
+x48                           1.000000
+x161                          1.000000
+x331                          1.000000
+x234                          1.000000
+x319                          1.000000
+x82                           1.000000
+x97                           1.000000
+x28                           1.000000
+u3                            1.000000
+u4                            2.000000
+u6                            3.000000
+u7                            5.000000
+u9                            3.000000
+u10                           2.000000
+u11                           4.000000
+u12                           4.000000
+u13                           6.000000
+u14                           1.000000
+All other variables in the range 1-560 are 0.
+CPLEX> 

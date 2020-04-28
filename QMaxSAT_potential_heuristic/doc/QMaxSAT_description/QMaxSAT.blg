@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: QMaxSAT.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: QMaxSAT.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 9 entries,
+            4039 wiz_defined-function locations,
+            896 strings with 10176 characters,
+and the built_in function-call counts, 8618 in all, are:
+= -- 669
+> -- 221
+< -- 76
++ -- 115
+- -- 37
+* -- 439
+:= -- 1244
+add.period$ -- 24
+call.type$ -- 9
+change.case$ -- 17
+chr.to.int$ -- 183
+cite$ -- 9
+duplicate$ -- 594
+empty$ -- 716
+format.name$ -- 49
+if$ -- 1995
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 108
+newline$ -- 50
+num.names$ -- 17
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 650
+stack$ -- 0
+substring$ -- 433
+swap$ -- 498
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 9
+warning$ -- 0
+while$ -- 47
+width$ -- 10
+write$ -- 115

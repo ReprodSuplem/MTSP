@@ -1,0 +1,1369 @@
+
+Log started (V12.7.1.0) Fri Dec 27 16:15:10 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m4.lp' read.
+Read time = 0.01 sec. (0.06 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 440 coefficients.
+Reduced MIP has 188 rows, 540 columns, and 3152 nonzeros.
+Reduced MIP has 528 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.06 ticks)
+Probing time = 0.00 sec. (2.77 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 188 rows, 540 columns, and 3152 nonzeros.
+Reduced MIP has 528 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.91 ticks)
+Probing time = 0.00 sec. (2.74 ticks)
+Clique table members: 1692.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (3.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       10.3438    38                     10.3438      176         
+      0     0       11.0000    47                     Cuts: 8      279         
+      0     0       11.0000    66                    Cuts: 36      505         
+      0     0       11.0000    51                    Cuts: 10      545         
+      0     0       11.0000    59                    Cuts: 23      598         
+      0     2       11.0000    30                     11.0000      598         
+Elapsed time = 0.16 sec. (145.96 ticks, tree = 0.01 MB, solutions = 0)
+*    29    20      integral     0       21.0000       11.2500     1388   46.43%
+*    40+   22                           20.0000       11.2500            43.75%
+*    77    44      integral     0       19.0000       11.2593     1826   40.74%
+*   120    49      integral     0       17.0000       11.2812     2340   33.64%
+*   228    80      integral     0       16.0000       11.4146     3609   28.66%
+    650   291       13.4689    39       16.0000       11.8182     8584   26.14%
+   1315   544       15.0000    36       16.0000       12.8462    16548   19.71%
+   1566   616       11.0000    24       16.0000       13.0000    20168   18.75%
+   1638   400       12.4000    53       16.0000       13.0000    21607   18.75%
+   1926   334       14.2500    27       16.0000       13.0000    25230   18.75%
+   2498   392       15.0000    20       16.0000       14.0000    31782   12.50%
+   3002   153    infeasible             16.0000       15.0000    37627    6.25%
+   3365    75       15.0000    32       16.0000       15.0000    41654    6.25%
+   3841    45       15.0000    11       16.0000       15.0000    48212    6.25%
+
+Cover cuts applied:  9
+Mixed integer rounding cuts applied:  4
+Zero-half cuts applied:  4
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.16 sec. (145.99 ticks)
+Sequential b&c:
+  Real time             =    2.68 sec. (2493.26 ticks)
+                          ------------
+Total (root+branch&cut) =    2.84 sec. (2639.25 ticks)
+
+Solution pool: 5 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.6000000000e+01
+Solution time =    2.84 sec.  Iterations = 49815  Nodes = 3943
+Deterministic time = 2639.25 ticks  (929.21 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            16.000000
+x12                           1.000000
+x148                          1.000000
+x299                          1.000000
+x442                          1.000000
+x61                           1.000000
+x169                          1.000000
+x361                          1.000000
+x445                          1.000000
+x542                          1.000000
+x183                          1.000000
+x413                          1.000000
+x102                          1.000000
+x343                          1.000000
+x140                          1.000000
+x93                           1.000000
+u2                            1.000000
+u3                            1.000000
+u5                            1.000000
+u6                            3.000000
+u7                            2.000000
+u8                            1.000000
+u9                            2.000000
+All other variables in the range 1-540 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:16:20 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m4.lp' read.
+Read time = 0.01 sec. (0.06 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 528 coefficients.
+Reduced MIP has 188 rows, 540 columns, and 3136 nonzeros.
+Reduced MIP has 528 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.09 ticks)
+Probing time = 0.00 sec. (2.75 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 188 rows, 540 columns, and 3136 nonzeros.
+Reduced MIP has 528 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.91 ticks)
+Probing time = 0.00 sec. (2.74 ticks)
+Clique table members: 1686.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.46 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       12.5625    37                     12.5625      146         
+      0     0       13.0000    47                    Cuts: 16      223         
+      0     0       13.0000    68                    Cuts: 53      363         
+      0     0       13.0000    63                     Cuts: 4      421         
+      0     0       13.0000    62                    Cuts: 21      531         
+*     0+    0                           30.0000       13.0000            56.67%
+*     0+    0                           24.0000       13.0000            45.83%
+      0     2       13.0000    34       24.0000       13.0000      531   45.83%
+Elapsed time = 0.24 sec. (202.40 ticks, tree = 0.01 MB, solutions = 2)
+*   120+   77                           21.0000       13.0000            38.10%
+*   239   115      integral     0       20.0000       13.2308     3631   33.85%
+*   320+  133                           19.0000       13.4038            29.45%
+*   360+  121                           18.0000       13.5222            24.88%
+*   548    69      integral     0       17.0000       14.0000     6960   17.65%
+    596    84        cutoff             17.0000       14.0000     7785   17.65%
+   1030   120        cutoff             17.0000       15.0000    14306   11.76%
+
+Cover cuts applied:  1
+Implied bound cuts applied:  70
+Mixed integer rounding cuts applied:  6
+Zero-half cuts applied:  5
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.24 sec. (202.36 ticks)
+Sequential b&c:
+  Real time             =    0.55 sec. (555.61 ticks)
+                          ------------
+Total (root+branch&cut) =    0.79 sec. (757.97 ticks)
+
+Solution pool: 7 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.7000000000e+01
+Solution time =    0.79 sec.  Iterations = 16467  Nodes = 1261
+Deterministic time = 757.98 ticks  (954.66 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            17.000000
+x9                            1.000000
+x155                          1.000000
+x295                          1.000000
+x436                          1.000000
+x61                           1.000000
+x229                          1.000000
+x397                          1.000000
+x457                          1.000000
+x98                           1.000000
+x471                          1.000000
+x365                          1.000000
+x18                           1.000000
+x272                          1.000000
+x430                          1.000000
+x348                          1.000000
+u2                            6.000000
+u3                            1.000000
+u5                            1.000000
+u6                            7.000000
+u8                            1.000000
+u10                           3.000000
+u12                           2.000000
+All other variables in the range 1-540 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:17:15 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m4.lp' read.
+Read time = 0.01 sec. (0.06 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 528 coefficients.
+Reduced MIP has 188 rows, 540 columns, and 3128 nonzeros.
+Reduced MIP has 528 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.07 ticks)
+Probing time = 0.00 sec. (2.76 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 188 rows, 540 columns, and 3128 nonzeros.
+Reduced MIP has 528 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.91 ticks)
+Probing time = 0.00 sec. (2.75 ticks)
+Clique table members: 1683.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       13.0625    47                     13.0625      148         
+      0     0       14.0000    56                     Cuts: 9      249         
+      0     0       14.0000    75                    Cuts: 38      413         
+      0     0       14.0000    51                     Cuts: 7      500         
+      0     0       14.0000    60                    Cuts: 13      529         
+*     0+    0                           35.0000       14.0000            60.00%
+*     0+    0                           28.0000       14.0000            50.00%
+      0     2       14.0000    29       28.0000       14.0000      529   50.00%
+Elapsed time = 0.19 sec. (180.92 ticks, tree = 0.01 MB, solutions = 2)
+*    20+   17                           18.0000       14.0000            22.22%
+*   130+   68                           17.0000       14.0000            17.65%
+*   224    48      integral     0       16.0000       14.0000     4784   12.50%
+*   280+   15                           15.0000       14.0000             6.67%
+    592     8    infeasible             15.0000       14.0000     9711    6.67%
+
+Implied bound cuts applied:  43
+Mixed integer rounding cuts applied:  4
+Zero-half cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (180.88 ticks)
+Sequential b&c:
+  Real time             =    0.33 sec. (338.59 ticks)
+                          ------------
+Total (root+branch&cut) =    0.51 sec. (519.47 ticks)
+
+Solution pool: 6 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.5000000000e+01
+Solution time =    0.51 sec.  Iterations = 13394  Nodes = 828
+Deterministic time = 519.47 ticks  (1010.88 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            15.000000
+x2                            1.000000
+x148                          1.000000
+x295                          1.000000
+x438                          1.000000
+x49                           1.000000
+x253                          1.000000
+x373                          1.000000
+x553                          1.000000
+x363                          1.000000
+x17                           1.000000
+x320                          1.000000
+x189                          1.000000
+x250                          1.000000
+x575                          1.000000
+x504                          1.000000
+u3                            1.000000
+u5                            1.000000
+u8                            2.000000
+u9                            1.000000
+u10                           3.000000
+u11                           7.000000
+u12                           6.000000
+All other variables in the range 1-540 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:17:37 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m4.lp' read.
+Read time = 0.01 sec. (0.06 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 264 coefficients.
+Reduced MIP has 188 rows, 540 columns, and 3160 nonzeros.
+Reduced MIP has 528 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (2.02 ticks)
+Probing time = 0.00 sec. (2.73 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 188 rows, 540 columns, and 3160 nonzeros.
+Reduced MIP has 528 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.92 ticks)
+Probing time = 0.00 sec. (2.73 ticks)
+Clique table members: 1674.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.05 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       13.0625    40                     13.0625      120         
+      0     0       14.0000    50                    Cuts: 32      293         
+      0     0       14.0000    62                    Cuts: 43      338         
+      0     2       14.0000    23                     14.0000      338         
+Elapsed time = 0.14 sec. (127.05 ticks, tree = 0.01 MB, solutions = 0)
+*    17    10      integral     0       17.0000       14.0000      677   17.65%
+
+Cover cuts applied:  3
+Implied bound cuts applied:  41
+Mixed integer rounding cuts applied:  7
+Zero-half cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.14 sec. (127.07 ticks)
+Sequential b&c:
+  Real time             =    0.18 sec. (187.92 ticks)
+                          ------------
+Total (root+branch&cut) =    0.33 sec. (314.99 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.7000000000e+01
+Solution time =    0.33 sec.  Iterations = 7686  Nodes = 526
+Deterministic time = 314.99 ticks  (967.22 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            17.000000
+x3                            1.000000
+x154                          1.000000
+x292                          1.000000
+x437                          1.000000
+x61                           1.000000
+x157                          1.000000
+x421                          1.000000
+x553                          1.000000
+x254                          1.000000
+x78                           1.000000
+x31                           1.000000
+x536                          1.000000
+x489                          1.000000
+x527                          1.000000
+x336                          1.000000
+u2                            1.000000
+u6                            2.000000
+u7                            1.000000
+u8                            2.000000
+u9                            1.000000
+u11                           3.000000
+u12                           1.000000
+All other variables in the range 1-540 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:19:10 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.04 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 176 coefficients.
+Reduced MIP has 160 rows, 276 columns, and 1678 nonzeros.
+Reduced MIP has 264 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.14 ticks)
+Probing time = 0.00 sec. (1.90 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 160 rows, 276 columns, and 1678 nonzeros.
+Reduced MIP has 264 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.05 ticks)
+Probing time = 0.00 sec. (1.89 ticks)
+Clique table members: 939.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       22.9000    39                     22.9000       78         
+      0     0       24.5000    29                    Cuts: 30      199         
+      0     0       25.0000    44                    Cuts: 15      269         
+      0     0       25.0000    39                    Cuts: 11      277         
+      0     0       25.0000    46                    Cuts: 18      294         
+      0     0       25.0000    41                   Covers: 1      310         
+      0     0       25.0000    50                    Cuts: 33      398         
+      0     2       25.0000    26                     25.0000      398         
+Elapsed time = 0.10 sec. (78.36 ticks, tree = 0.01 MB, solutions = 0)
+*    28    19      integral     0       29.0000       25.0000      726   13.79%
+*   117    60      integral     0       28.0000       25.0000     2136   10.71%
+*   151    43      integral     0       27.0000       25.0000     2652    7.41%
+*   186     1      integral     0       26.0000       25.1733     3314    3.18%
+
+Cover cuts applied:  4
+Implied bound cuts applied:  18
+Mixed integer rounding cuts applied:  5
+Zero-half cuts applied:  7
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.10 sec. (78.36 ticks)
+Sequential b&c:
+  Real time             =    0.06 sec. (61.06 ticks)
+                          ------------
+Total (root+branch&cut) =    0.16 sec. (139.43 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.6000000000e+01
+Solution time =    0.16 sec.  Iterations = 3314  Nodes = 187
+Deterministic time = 139.43 ticks  (867.47 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            26.000000
+x2                            1.000000
+x149                          1.000000
+x37                           1.000000
+x241                          1.000000
+x123                          1.000000
+x112                          1.000000
+x282                          1.000000
+x199                          1.000000
+x20                           1.000000
+x213                          1.000000
+x34                           1.000000
+x95                           1.000000
+x228                          1.000000
+u3                            3.000000
+u4                            5.000000
+u6                            3.000000
+u7                            1.000000
+u8                            1.000000
+u9                            4.000000
+u10                           4.000000
+u11                           2.000000
+u12                           2.000000
+All other variables in the range 1-276 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:19:23 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.04 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 264 coefficients.
+Reduced MIP has 160 rows, 276 columns, and 1672 nonzeros.
+Reduced MIP has 264 binaries, 11 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.17 ticks)
+Probing time = 0.00 sec. (1.89 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 160 rows, 276 columns, and 1672 nonzeros.
+Reduced MIP has 264 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.06 ticks)
+Probing time = 0.00 sec. (1.87 ticks)
+Clique table members: 935.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       15.8000    23                     15.8000       96         
+      0     0       17.0000    31                    Cuts: 37      204         
+      0     0       17.0000    33                    Cuts: 16      224         
+      0     0       17.0000    24                 ZeroHalf: 3      226         
+      0     0       17.0000    32                    Cuts: 11      243         
+*     0+    0                           22.0000       17.0000            22.73%
+      0     2       17.0000    32       22.0000       17.0000      243   22.73%
+Elapsed time = 0.06 sec. (34.33 ticks, tree = 0.01 MB, solutions = 1)
+*   334   145      integral     0       21.0000       18.1000     3773   13.81%
+*   790     1      integral     0       20.0000       19.2333     7325    3.83%
+
+Clique cuts applied:  1
+Cover cuts applied:  12
+Implied bound cuts applied:  37
+Mixed integer rounding cuts applied:  5
+Zero-half cuts applied:  10
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (34.33 ticks)
+Sequential b&c:
+  Real time             =    0.17 sec. (160.55 ticks)
+                          ------------
+Total (root+branch&cut) =    0.23 sec. (194.88 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.0000000000e+01
+Solution time =    0.23 sec.  Iterations = 7325  Nodes = 791
+Deterministic time = 194.88 ticks  (853.49 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            20.000000
+x10                           1.000000
+x147                          1.000000
+x85                           1.000000
+x205                          1.000000
+x170                          1.000000
+x52                           1.000000
+x113                          1.000000
+x222                          1.000000
+x271                          1.000000
+x140                          1.000000
+x165                          1.000000
+x251                          1.000000
+x48                           1.000000
+u2                            1.000000
+u4                            2.000000
+u5                            1.000000
+u6                            5.000000
+u7                            4.000000
+u8                            4.000000
+u9                            2.000000
+u11                           3.000000
+u12                           3.000000
+All other variables in the range 1-276 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:24:06 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.25 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 242.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.16 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       15.5000    19                     15.5000       33         
+      0     0       16.0000     8                 ZeroHalf: 1       36         
+*     0+    0                           17.0000       16.0000             5.88%
+      0     0       16.0000    16       17.0000       Cuts: 9       51    5.88%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 17 columns.
+Reduced MIP has 46 rows, 49 columns, and 244 nonzeros.
+Reduced MIP has 44 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing fixed 4 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 4 columns.
+Reduced MIP has 46 rows, 45 columns, and 220 nonzeros.
+Reduced MIP has 40 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.10 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 45 columns, and 220 nonzeros.
+Reduced MIP has 40 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Represolve time = 0.00 sec. (0.85 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Clique table members: 178.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           17.0000       16.0000             5.88%
+      0     0       16.0000    20       17.0000       16.0000       74    5.88%
+      0     0       16.0000    22       17.0000       Cuts: 5       90    5.88%
+      0     0       16.0000    16       17.0000       Cuts: 2      101    5.88%
+      0     0       16.0000    21       17.0000      Cuts: 16      119    5.88%
+      0     2       16.0000    10       17.0000       16.0000      119    5.88%
+Elapsed time = 0.03 sec. (8.90 ticks, tree = 0.01 MB, solutions = 1)
+
+Clique cuts applied:  1
+Implied bound cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (8.90 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.56 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (9.45 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.7000000000e+01
+Solution time =    0.03 sec.  Iterations = 208  Nodes = 17
+Deterministic time = 9.45 ticks  (295.28 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            17.000000
+x2                            1.000000
+x39                           1.000000
+x19                           1.000000
+x67                           1.000000
+x28                           1.000000
+x11                           1.000000
+x54                           1.000000
+u4                            2.000000
+u5                            1.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:30:23 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 352 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 352 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.23 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 243.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.17 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       13.5000    18                     13.5000       31         
+      0     0       14.0000    24                    Cuts: 14       55         
+      0     0       14.0000    19                    Cuts: 25       64         
+      0     0       14.0000    20                    Cuts: 20       88         
+      0     0       14.0000    21                     Cuts: 2      116         
+*     0+    0                           24.0000       14.0000            41.67%
+      0     2       14.0000     6       24.0000       14.0000      116   41.67%
+Elapsed time = 0.03 sec. (10.60 ticks, tree = 0.01 MB, solutions = 1)
+*    10+    7                           19.0000       15.0000            21.05%
+*    17     5      integral     0       18.0000       15.0000      239   16.67%
+*    28     2      integral     0       17.0000       15.5000      308    8.82%
+
+Cover cuts applied:  1
+Implied bound cuts applied:  3
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (10.59 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (1.77 ticks)
+                          ------------
+Total (root+branch&cut) =    0.04 sec. (12.35 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.7000000000e+01
+Solution time =    0.04 sec.  Iterations = 313  Nodes = 31
+Deterministic time = 12.35 ticks  (342.73 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            17.000000
+x2                            1.000000
+x41                           1.000000
+x31                           1.000000
+x49                           1.000000
+x57                           1.000000
+x64                           1.000000
+x12                           1.000000
+u3                            2.000000
+u4                            1.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:30:44 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.18 ticks)
+Clique table members: 242.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       12.0000    15                     12.0000       31         
+      0     0       12.0000     9                    Cuts: 16       36         
+      0     0       12.0208    20                     Cuts: 4       49         
+      0     0       12.1333    22                    Cuts: 12       57         
+      0     0       12.2222    20                     Cuts: 7       63         
+      0     0       12.3333    21                     Cuts: 5       69         
+      0     0       12.3333    21                 ZeroHalf: 2       78         
+      0     0       12.4000    19                    Cuts: 21      101         
+      0     0       12.4318    25                 ZeroHalf: 4      110         
+      0     0       12.5839    25                    Cuts: 15      123         
+      0     0       12.6250    26                    Cuts: 12      136         
+      0     0       12.7500    23                    Cuts: 12      149         
+      0     0       12.7500    29                    Cuts: 19      169         
+*     0+    0                           19.0000       12.7500            32.89%
+      0     2       12.7500    25       19.0000       12.7500      169   32.89%
+Elapsed time = 0.03 sec. (9.75 ticks, tree = 0.01 MB, solutions = 1)
+*    38    18      integral     0       18.0000       14.0292      432   22.06%
+*    43    14      integral     0       17.0000       14.1333      470   16.86%
+*    47     8      integral     0       16.0000       14.2857      485   10.71%
+
+Clique cuts applied:  3
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (9.75 ticks)
+Sequential b&c:
+  Real time             =    0.01 sec. (2.95 ticks)
+                          ------------
+Total (root+branch&cut) =    0.04 sec. (12.70 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.6000000000e+01
+Solution time =    0.04 sec.  Iterations = 487  Nodes = 55
+Deterministic time = 12.70 ticks  (347.26 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            16.000000
+x2                            1.000000
+x40                           1.000000
+x25                           1.000000
+x55                           1.000000
+x33                           1.000000
+x17                           1.000000
+x12                           1.000000
+u3                            2.000000
+u5                            3.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:35:49 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 348 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 348 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.23 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 244.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.21 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       14.0000    14                     14.0000       40         
+      0     0       14.0000    21                    Cuts: 13       48         
+      0     0       14.0295    25                     Cuts: 9       60         
+      0     0       14.0348    26                     Cuts: 2       66         
+      0     0       14.2133    25                    Cuts: 13       74         
+      0     0       14.2133    25                     Cuts: 2       75         
+*     0+    0                           21.0000       14.2133            32.32%
+*     0+    0                           17.0000       14.2133            16.39%
+      0     2       14.2133    25       17.0000       14.2213       75   16.35%
+Elapsed time = 0.03 sec. (6.49 ticks, tree = 0.01 MB, solutions = 2)
+
+Implied bound cuts applied:  2
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  9
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (6.49 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.44 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (6.93 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.7000000000e+01
+Solution time =    0.03 sec.  Iterations = 132  Nodes = 11
+Deterministic time = 6.93 ticks  (257.71 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            17.000000
+x4                            1.000000
+x39                           1.000000
+x25                           1.000000
+x67                           1.000000
+x20                           1.000000
+x11                           1.000000
+x54                           1.000000
+u2                            1.000000
+u5                            2.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:36:30 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.25 ticks)
+Probing fixed 0 vars, tightened 2 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 242.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.22 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       12.5000    20                     12.5000       43         
+      0     0       13.0000    17                     Cuts: 7       79         
+      0     0       13.5000    23                    Cuts: 16      112         
+      0     0       13.5000    15                     Cuts: 7      118         
+*     0+    0                           14.0000       13.5000             3.57%
+      0     0        cutoff             14.0000       13.5000      118    3.57%
+Elapsed time = 0.02 sec. (4.11 ticks, tree = 0.01 MB, solutions = 1)
+
+Cover cuts applied:  1
+Mixed integer rounding cuts applied:  3
+Zero-half cuts applied:  6
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (4.11 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (4.11 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.4000000000e+01
+Solution time =    0.02 sec.  Iterations = 118  Nodes = 0
+Deterministic time = 4.11 ticks  (205.90 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            14.000000
+x6                            1.000000
+x39                           1.000000
+x19                           1.000000
+x43                           1.000000
+x50                           1.000000
+x28                           1.000000
+x35                           1.000000
+u2                            1.000000
+u4                            3.000000
+u5                            2.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:37:38 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 80 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 342 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 241.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.18 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       11.5000     9                     11.5000       36         
+      0     0       12.0000    22                    Cuts: 16       51         
+      0     0       12.0000    22                    Cuts: 16       81         
+      0     0       12.0000    23                  MIRcuts: 2      100         
+*     0+    0                           16.0000       12.0000            25.00%
+      0     2       12.0000    15       16.0000       12.0000      100   25.00%
+Elapsed time = 0.03 sec. (6.56 ticks, tree = 0.01 MB, solutions = 1)
+
+Cover cuts applied:  2
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (6.55 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (1.36 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (7.91 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.6000000000e+01
+Solution time =    0.03 sec.  Iterations = 265  Nodes = 33
+Deterministic time = 7.91 ticks  (273.03 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            16.000000
+x6                            1.000000
+x39                           1.000000
+x7                            1.000000
+x61                           1.000000
+x32                           1.000000
+x52                           1.000000
+x59                           1.000000
+u2                            1.000000
+u4                            1.000000
+u5                            2.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:38:32 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 350 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.21 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 350 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.23 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 243.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       14.5000    10                     14.5000       43         
+      0     0       15.0000    22                    Cuts: 16       65         
+      0     0       15.0000    20                    Cuts: 19       86         
+      0     0       15.0000    26                    Cuts: 10      117         
+      0     0       15.1463    28                    Cuts: 15      155         
+      0     0       15.1663    33                    Cuts: 10      167         
+      0     0       15.2372    30                    Cuts: 11      185         
+      0     0       15.2566    30                    Cuts: 14      203         
+      0     0       15.2869    33                    Cuts: 10      227         
+      0     0       15.3090    35                    Cuts: 16      245         
+      0     0       15.3341    34                     Cuts: 9      262         
+      0     0       15.3618    33                     Cuts: 8      276         
+      0     0       15.3692    31                     Cuts: 4      280         
+      0     0       15.3870    34                 ZeroHalf: 3      290         
+      0     0       15.3985    31                     Cuts: 8      302         
+      0     0       15.4281    34                     Cuts: 6      324         
+      0     0       15.4775    33                     Cuts: 8      347         
+*     0+    0                           23.0000       15.4775            32.71%
+      0     0       15.5309    32       23.0000       Cuts: 5      365   32.47%
+      0     0       15.5608    33       23.0000      Cuts: 16      391   32.34%
+      0     0       15.5644    31       23.0000       Cuts: 8      399   32.33%
+      0     0       15.5723    32       23.0000       Cuts: 9      413   32.29%
+*     0+    0                           20.0000       15.5723            22.14%
+      0     0       15.5787    33       20.0000       Cuts: 8      425   22.11%
+      0     0       15.5801    35       20.0000       Cuts: 5      430   22.10%
+*     0+    0                           18.0000       15.5801            13.44%
+      0     2       15.5801    35       18.0000       15.5829      430   13.43%
+Elapsed time = 0.05 sec. (23.11 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  1
+Cover cuts applied:  1
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  11
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (23.11 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (1.83 ticks)
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (24.93 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.8000000000e+01
+Solution time =    0.05 sec.  Iterations = 603  Nodes = 19
+Deterministic time = 24.93 ticks  (454.38 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            18.000000
+x6                            1.000000
+x38                           1.000000
+x25                           1.000000
+x49                           1.000000
+x45                           1.000000
+x34                           1.000000
+x23                           1.000000
+u3                            1.000000
+u4                            1.000000
+u5                            2.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:39:05 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 40 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 346 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.25 ticks)
+Probing fixed 0 vars, tightened 2 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 346 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 243.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       17.2500    19                     17.2500       40         
+      0     0       18.0000    21                    Cuts: 19       71         
+*     0+    0                           20.0000       18.0000            10.00%
+      0     0       18.0000    26       20.0000      Cuts: 18       92   10.00%
+      0     0       18.0000    20       20.0000    MIRcuts: 1       95   10.00%
+*     0+    0                           19.0000       18.0000             5.26%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 29 columns.
+MIP Presolve modified 8 coefficients.
+Reduced MIP has 46 rows, 37 columns, and 176 nonzeros.
+Reduced MIP has 32 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.13 ticks)
+Probing fixed 6 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.07 ticks)
+Cover probing fixed 2 vars, tightened 1 bounds.
+Presolve time = 0.00 sec. (0.44 ticks)
+Represolve time = 0.00 sec. (0.74 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (6.73 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (6.73 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.9000000000e+01
+Solution time =    0.03 sec.  Iterations = 95  Nodes = 0
+Deterministic time = 6.73 ticks  (242.92 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            19.000000
+x5                            1.000000
+x38                           1.000000
+x13                           1.000000
+x55                           1.000000
+x27                           1.000000
+x70                           1.000000
+x48                           1.000000
+u3                            1.000000
+u4                            2.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Fri Dec 27 16:39:19 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 40 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 350 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.25 ticks)
+Probing fixed 0 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.21 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 350 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.23 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 243.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.19 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       16.5000    12                     16.5000       37         
+      0     0       17.0000    16                    Cuts: 17       81         
+      0     0       17.0000    14                     Cuts: 9      106         
+      0     0       17.0000    19                 ZeroHalf: 3      114         
+*     0+    0                           24.0000       17.0000            29.17%
+      0     0       17.0588    27       24.0000      Cuts: 11      149   28.92%
+      0     0       17.1667    25       24.0000       Cuts: 7      160   28.47%
+      0     0       17.1667    28       24.0000      Cuts: 19      167   28.47%
+*     0+    0                           20.0000       17.1667            14.17%
+      0     2       17.1667    28       20.0000       17.1667      167   14.17%
+Elapsed time = 0.03 sec. (8.48 ticks, tree = 0.01 MB, solutions = 2)
+
+Cover cuts applied:  1
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  13
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (8.48 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (2.14 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (10.62 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.0000000000e+01
+Solution time =    0.03 sec.  Iterations = 372  Nodes = 46
+Deterministic time = 10.62 ticks  (331.60 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            20.000000
+x5                            1.000000
+x38                           1.000000
+x13                           1.000000
+x55                           1.000000
+x27                           1.000000
+x70                           1.000000
+x48                           1.000000
+u3                            1.000000
+u4                            2.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.
+
+Log started (V12.7.1.0) Sat Dec 28 10:40:53 2019
+
+New value for default parallel thread count: 1
+New value for time limit in seconds: 3600
+
+Problem '/home/aist-zha/Desktop/minmaxExp/testIns_m2.lp' read.
+Read time = 0.01 sec. (0.01 ticks)
+CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+MIP Presolve modified 60 coefficients.
+Reduced MIP has 46 rows, 66 columns, and 346 nonzeros.
+Reduced MIP has 60 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing fixed 0 vars, tightened 2 bounds.
+Probing time = 0.00 sec. (0.20 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 46 rows, 66 columns, and 346 nonzeros.
+Reduced MIP has 60 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Probing time = 0.00 sec. (0.19 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 243.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.18 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0       13.2500    18                     13.2500       39         
+      0     0       14.0000    16                     Cuts: 4       47         
+      0     0       14.0000    21                    Cuts: 17       71         
+      0     0       14.0000    24                 ZeroHalf: 4       83         
+*     0+    0                           16.0000       14.0000            12.50%
+      0     2       14.0000     4       16.0000       14.0000       83   12.50%
+Elapsed time = 0.03 sec. (7.70 ticks, tree = 0.01 MB, solutions = 1)
+*    11     0      integral     0       15.0000       14.2500      178    5.00%
+
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  3
+Zero-half cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (7.69 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.56 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (8.25 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.5000000000e+01
+Solution time =    0.03 sec.  Iterations = 178  Nodes = 12
+Deterministic time = 8.25 ticks  (283.63 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+y                            15.000000
+x4                            1.000000
+x38                           1.000000
+x13                           1.000000
+x61                           1.000000
+x33                           1.000000
+x47                           1.000000
+x24                           1.000000
+u3                            2.000000
+u5                            1.000000
+u6                            1.000000
+All other variables in the range 1-66 are 0.

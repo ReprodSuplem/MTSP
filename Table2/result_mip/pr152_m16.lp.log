@@ -1,0 +1,119 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.7.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2017.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> New value for default parallel thread count: 1
+CPLEX> New value for time limit in seconds: 3600
+CPLEX> Problem 'pr152_m16.lp' read.
+Read time = 0.59 sec. (41.33 ticks)
+CPLEX> CPXPARAM_TimeLimit                               3600
+CPXPARAM_Threads                                 1
+CPXPARAM_Read_APIEncoding                        "UTF-8"
+Tried aggregator 1 time.
+Reduced MIP has 25416 rows, 367384 columns, and 2239044 nonzeros.
+Reduced MIP has 367232 binaries, 151 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.92 sec. (858.76 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 25416 rows, 367384 columns, and 2239044 nonzeros.
+Reduced MIP has 367232 binaries, 151 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.62 sec. (1237.15 ticks)
+Probing time = 0.40 sec. (139.58 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 556059.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 190.10 sec. (232260.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     6292.1654   425                   6292.1654    69163         
+      0     0     6334.5404   453                   Cuts: 201    69971         
+      0     0     6383.3125   488                   Cuts: 312    70244         
+      0     0     6383.3125   462                   Cuts: 100    70380         
+      0     0     6383.3125   452                    Cuts: 58    70427         
+      0     0     6383.3125   416                    Cuts: 60    70481         
+      0     0     6383.3125   418                    Cuts: 36    70521         
+      0     0     6383.3125   377                     Cuts: 9    70533         
+      0     0     6383.3125   427                    Cuts: 80    70662         
+Heuristic still looking.
+Heuristic still looking.
+Heuristic still looking.
+      0     2     6383.3125   427                   6383.3125    70662         
+Elapsed time = 848.83 sec. (1509311.56 ticks, tree = 0.01 MB, solutions = 0)
+      2     4     6383.4632   437                   6383.4632    70747         
+      4     6     6383.5234   408                   6383.4632    70789         
+      5     7     6383.5234   420                   6383.4632    70825         
+      6     8     6383.5234   408                   6383.4632    70857         
+      8    10     6383.6875   405                   6383.4632    70898         
+     10    12     6384.1087   414                   6383.4632    70949         
+     12    14     6383.6875   416                   6383.4632    70980         
+     16    18     6383.6875   404                   6383.4632    71040         
+     19    21     6384.5547   403                   6383.4632    71120         
+     30    32     6384.0278   413                   6383.4632    71255         
+Elapsed time = 852.15 sec. (1513547.49 ticks, tree = 12.82 MB, solutions = 0)
+     39    41     6384.0602   396                   6383.4632    71415         
+     40    42     8327.2353   820                   6383.4632   178741         
+     42    44     7590.0000   641                   6383.4632   214840         
+     47    49     6384.0602   404                   6383.4632   214954         
+     49    51     8137.2353   792                   6383.4632   234707         
+     50    52     6384.0602   403                   6383.4632   234728         
+     51    53     6396.6043   413                   6383.4632   234839         
+     52    54     6384.0602   399                   6383.4632   234882         
+     53    55     6396.6043   405                   6383.4632   235035         
+     54    56     7400.0000   378                   6383.4632   235320         
+Elapsed time = 1954.95 sec. (2884172.67 ticks, tree = 23.15 MB, solutions = 0)
+     58    60     6398.9827   420                   6383.4632   235481         
+     62    64     6398.7923   408                   6383.4632   235661         
+     70    72     6396.6043   406                   6383.4632   235804         
+     74    76     6397.0941   405                   6383.4632   235945         
+     76    78     6688.0000   632                   6383.4632   289108         
+     77    79     6398.4960   405                   6383.4632   289131         
+     78    80     6398.5758   403                   6383.4632   289139         
+     79    81     6405.7192   412                   6383.4632   289203         
+     80    82     8202.0000   709                   6383.4632   358079         
+     81    83     6461.1947   406                   6383.4632   358185         
+Elapsed time = 2697.58 sec. (3803815.53 ticks, tree = 34.35 MB, solutions = 0)
+     83    85     6461.0942   407                   6383.4632   358316         
+     85    87     6420.5317   417                   6383.4632   358440         
+     86    88     8524.0000   973                   6383.4632   383561         
+     87    89     6504.6245   411                   6383.4632   383778         
+     89    91     6504.6245   398                   6383.4632   383975         
+     91    93     6504.6245   409                   6383.4632   384394         
+     93    95     6507.9553   420                   6383.4632   385504         
+     95    97     6449.2495   405                   6383.4632   385839         
+     96    98     8514.0000   672                   6383.4632   431139         
+     98   100    10200.0000  1266                   6383.4632   481153         
+Elapsed time = 3218.94 sec. (4448700.22 ticks, tree = 42.11 MB, solutions = 0)
+     99   101     7661.6000   601                   6383.4632   531241         
+    100   102     6849.5000   652                   6383.4632   538640         
+    101   103     8302.0000   716                   6383.4632   579118         
+
+Clique cuts applied:  32
+Implied bound cuts applied:  10
+Mixed integer rounding cuts applied:  63
+Zero-half cuts applied:  149
+Gomory fractional cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =  830.00 sec. (1497403.82 ticks)
+Sequential b&c:
+  Real time             = 2770.02 sec. (3437255.07 ticks)
+                          ------------
+Total (root+branch&cut) = 3600.02 sec. (4934658.89 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound =  6.3834632353e+03 (gap is infinite)
+Solution time = 3600.02 sec.  Iterations = 580256  Nodes = 103 (104)
+Deterministic time = 4934659.94 ticks  (1370.73 ticks/sec)
+
+CPLEX> No integer feasible solution exists.
+CPLEX> 
