@@ -21,9 +21,9 @@ Note that this instruction does NOT include the usage of CPLEX optimizer, and
 please refer to its official manual. 
 
 ===== Part B =====
-Usage of extended MaxSAT sovler ->
+Usage of group MaxSAT sovler ->
 We modified QMaxSAT solver (version submitted into MaxSAT Evaluation 2018) to 
-six extended MaxSAT solvers as follows. 
+six group MaxSAT solvers as follows. 
 (1) QMaxSAT_arithmetic
 (2) QMaxSAT_arithmetic_heuristic
 (3) QMaxSAT_potential
@@ -43,10 +43,3 @@ and -mct=$y indicates that the number of salesmen is $y.
 Please do not pay attention to the last argument file "solution.txt", 
 it does NOT play any role in reproducing our experiment, 
 but please keep this argument, otherwise you will get an error. 
-
-===== Part C =====
-All log files in our experiments are in the following directories:
-(1) Table 1
-(2) Table 2
-(3) Table 3
-which respectively correspond to the results of our paper. 
